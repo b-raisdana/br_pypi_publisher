@@ -1,0 +1,9 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch
+index d1b8527..3863626 100644
+--- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch
+@@ -17,4 +17,3 @@ index 0000000..d823b0d
+ +
+ +exec python "$script_dir/publish_to_pypi.py" "$@"
+ \ No newline at end of file
+-

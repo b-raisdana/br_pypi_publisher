@@ -1,0 +1,22 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.patch
+new file mode 100644
+index 0000000..b914110
+--- /dev/null
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.patch
+@@ -0,0 +1,16 @@
++diff --git a/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch b/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch
++new file mode 100644
++index 0000000..783340e
++--- /dev/null
+++++ b/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch
++@@ -0,0 +1,9 @@
+++diff --git a/pre-commit b/pre-commit
+++new file mode 100755
+++index 0000000..ecac0cd
+++--- /dev/null
++++++ b/pre-commit
+++@@ -0,0 +1,2 @@
++++#!/bin/sh
++++exec "$(git rev-parse --git-dir)/hooks/pre-commit"
+++
++

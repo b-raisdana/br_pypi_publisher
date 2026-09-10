@@ -1,0 +1,10 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.patch
+index e2ee076..c543ec6 100644
+--- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.patch
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.patch
+@@ -7,4 +7,3 @@ index 0000000..e72900b
+ +[submodule "br_pre_commit"]
+ +	path = br_pre_commit
+ +	url = /home/brais/code/br_pre_commit
+-
+

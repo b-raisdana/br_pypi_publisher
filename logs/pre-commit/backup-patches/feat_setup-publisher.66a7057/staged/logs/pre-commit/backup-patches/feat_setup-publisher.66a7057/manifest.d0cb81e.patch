@@ -1,0 +1,187 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.json b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.json
+new file mode 100644
+index 0000000..db6b39b
+--- /dev/null
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.json
+@@ -0,0 +1,181 @@
++{
++  "branch": "feat/setup-publisher",
++  "commit_hash": "66a7057933b09089bae71a0feed902bc4ac0dccd",
++  "timestamp": "20260910T091546",
++  "snapshot_dir": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057",
++  "staged": [
++    {
++      "original_path": ".gitmodules",
++      "type": "patch",
++      "stored_path": "staged/.gitmodules.4ac487a.patch"
++    },
++    {
++      "original_path": ".pre-commit-config.yaml",
++      "type": "patch",
++      "stored_path": "staged/.pre-commit-config.fa07695.patch"
++    },
++    {
++      "original_path": "README.md",
++      "type": "patch",
++      "stored_path": "staged/README.8308958.patch"
++    },
++    {
++      "original_path": "br_pre_commit",
++      "type": "patch",
++      "stored_path": "staged/br_pre_commit.dfcf0c4.patch"
++    },
++    {
++      "original_path": "install.sh",
++      "type": "patch",
++      "stored_path": "staged/install.0a7a052.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/manifest.json",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/pre-commit.log",
++      "type": "patch",
++      "stored_path": "staged/logs/pre-commit/pre-commit.908cce6.patch"
++    },
++    {
++      "original_path": "pre-commit",
++      "type": "patch",
++      "stored_path": "staged/pre-commit.15fdad0.patch"
++    },
++    {
++      "original_path": "publish_to_pypi.sh",
++      "type": "patch",
++      "stored_path": "staged/publish_to_pypi.07f1705.patch"
++    },
++    {
++      "original_path": "scripts/publish_to_pypi.py",
++      "type": "patch",
++      "stored_path": "staged/scripts/publish_to_pypi.de28e75.patch"
++    },
++    {
++      "original_path": "scripts/publish_to_pypi.sh",
++      "type": "patch",
++      "stored_path": "staged/scripts/publish_to_pypi.e4d1559.patch"
++    }
++  ],
++  "unstaged": [
++    {
++      "original_path": "README.md",
++      "type": "patch",
++      "stored_path": "unstaged/README.6ba6586.patch"
++    },
++    {
++      "original_path": "install.sh",
++      "type": "patch",
++      "stored_path": "unstaged/install.0050093.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.patch"
++    },
++    {
++      "original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log",
++      "type": "patch",
++      "stored_path": "unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.patch"
++    },
++    {
++      "original_path": "publish_to_pypi.sh",
++      "type": "patch",
++      "stored_path": "unstaged/publish_to_pypi.3133fe4.patch"
++    },
++    {
++      "original_path": "scripts/publish_to_pypi.py",
++      "type": "patch",
++      "stored_path": "unstaged/scripts/publish_to_pypi.b421624.patch"
++    },
++    {
++      "original_path": "scripts/publish_to_pypi.sh",
++      "type": "patch",
++      "stored_path": "unstaged/scripts/publish_to_pypi.5280208.patch"
++    }
++  ],
++  "untracked": []
++}

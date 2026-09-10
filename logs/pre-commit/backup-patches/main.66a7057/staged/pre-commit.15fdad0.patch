@@ -1,0 +1,8 @@
+diff --git a/pre-commit b/pre-commit
+new file mode 100755
+index 0000000..ecac0cd
+--- /dev/null
++++ b/pre-commit
+@@ -0,0 +1,2 @@
++#!/bin/sh
++exec "$(git rev-parse --git-dir)/hooks/pre-commit"

@@ -1,0 +1,9 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.patch
+index aa421d3..0dfb6b4 100644
+--- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.patch
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.patch
+@@ -118,4 +118,3 @@ index 0000000..6826ff8
+ ++echo "For more info, see: $tool_root/README.md"
+ +\ No newline at end of file
+ +
+-

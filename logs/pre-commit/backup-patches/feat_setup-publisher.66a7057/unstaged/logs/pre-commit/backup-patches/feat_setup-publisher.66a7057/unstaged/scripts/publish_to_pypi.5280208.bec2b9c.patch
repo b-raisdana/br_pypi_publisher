@@ -1,0 +1,14 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.patch
+index ffce8bf..4d3046a 100644
+--- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.patch
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.patch
+@@ -5,8 +5,7 @@ index d823b0d..27d9a0c 100755
+ @@ -9,4 +9,4 @@ script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+  publisher_root=$(dirname "$script_dir")
+  repo_root=$(dirname "$publisher_root")
+-
++
+ -exec python "$script_dir/publish_to_pypi.py" "$@"
+ \ No newline at end of file
+ +exec python "$script_dir/publish_to_pypi.py" "$@"
+-

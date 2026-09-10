@@ -1,0 +1,14 @@
+diff --git a/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch b/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch
+new file mode 100644
+index 0000000..5894c32
+--- /dev/null
++++ b/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch
+@@ -0,0 +1,7 @@
++diff --git a/br_pre_commit b/br_pre_commit
++new file mode 160000
++index 0000000..6feee21
++--- /dev/null
+++++ b/br_pre_commit
++@@ -0,0 +1 @@
+++Subproject commit 6feee21db5c3d828fa44c688487799a5f4e5fa05
+

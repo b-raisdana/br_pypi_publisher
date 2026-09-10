@@ -1,0 +1,16 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.patch
+new file mode 100644
+index 0000000..29f9556
+--- /dev/null
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.patch
+@@ -0,0 +1,10 @@
++diff --git a/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch b/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch
++index 8852dac..5894c32 100644
++--- a/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch
+++++ b/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch
++@@ -5,4 +5,3 @@ index 0000000..6feee21
++ +++ b/br_pre_commit
++ @@ -0,0 +1 @@
++ +Subproject commit 6feee21db5c3d828fa44c688487799a5f4e5fa05
++-
++

@@ -1,0 +1,1196 @@
+{
+  "branch": "feat/setup-publisher",
+  "commit_hash": "66a7057933b09089bae71a0feed902bc4ac0dccd",
+  "timestamp": "20260910T092053",
+  "snapshot_dir": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057",
+  "staged": [
+    {
+      "original_path": ".gitmodules",
+      "type": "patch",
+      "stored_path": "staged/.gitmodules.4ac487a.patch"
+    },
+    {
+      "original_path": ".pre-commit-config.yaml",
+      "type": "patch",
+      "stored_path": "staged/.pre-commit-config.fa07695.patch"
+    },
+    {
+      "original_path": "README.md",
+      "type": "patch",
+      "stored_path": "staged/README.b6fe805.patch"
+    },
+    {
+      "original_path": "br_pre_commit",
+      "type": "patch",
+      "stored_path": "staged/br_pre_commit.dfcf0c4.patch"
+    },
+    {
+      "original_path": "install.sh",
+      "type": "patch",
+      "stored_path": "staged/install.6d2b2ad.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.json",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.7b1917d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.bc472d7.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.060e312.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.fbb4c5a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.b6fe805.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.b6fe805.06d72c2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.aae6056.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.566c939.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.6d2b2ad.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.6d2b2ad.9ce97fb.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.d0cb81e.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.d0cb81e.3de8a7a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.bc472d7.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.bc472d7.a1b44cd.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.060e312.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.060e312.30f7b9b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.2221db5.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.2221db5.ddb804a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.aae6056.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.aae6056.79630f1.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.77d00f9.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.77d00f9.a60300e.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.4d1a218.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.4d1a218.831f17b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.e1bc4e0.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.e1bc4e0.7f1996b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.07a60a1.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.07a60a1.5566063.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.67ae7f3.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.67ae7f3.105b459.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.889a401.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.889a401.832c4bc.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.faa458b.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.faa458b.79d73ed.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.a4c3901.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.a4c3901.f81fff7.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.9f05858.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.9f05858.8c2beab.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.fda2c2d.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.fda2c2d.e49bbc8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.843fa59.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.843fa59.6e2d7be.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.7b0cdd9.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.7b0cdd9.7c85393.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.e7b11a8.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.e7b11a8.b6ce56d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.4c61235.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.4c61235.4e95609.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.a3b25f9.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.a3b25f9.b0ae326.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.5fe1756.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.5fe1756.10f3d3f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.060361b.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.060361b.14da58f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.67539de.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.67539de.c071296.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.671a824.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.671a824.dfaddd4.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.454b388.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.454b388.d544d8e.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.c5a34ef.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.c5a34ef.459b530.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.a87fdca.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.a87fdca.349d162.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.17e6f32.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.17e6f32.297608b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.5fa124c.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.5fa124c.ce89e9a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.6e33638.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.6e33638.7dd4d00.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.ff119f3.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.ff119f3.f0efe0b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.25d3d0b.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.25d3d0b.67e604d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.6634e01.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.6634e01.a56a61b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.0ac5782.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.0ac5782.092c0e2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.a2cc82c.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.a2cc82c.2168b48.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.4d1a218.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.12afd63.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.12afd63.c3370c9.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.12c969e.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.f90f1aa.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.bfe0b62.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.bfe0b62.06e3902.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.1691b07.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.1691b07.0cd31f9.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.c1b5ea2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.8e5a3b3.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.c7ca716.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.c7ca716.f79fc68.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.061face.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.061face.08e5048.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.47f5aaa.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.537d8a7.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.537d8a7.df09a3f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.76198b5.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.267bf37.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.346cb28.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.346cb28.048aade.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.b0bbf41.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.b0bbf41.7555078.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.3cc495e.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.008c2e5.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.008c2e5.99ffc9f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.c888f0b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.8eedd70.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.8eedd70.5dc5a44.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.9c6d925.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.c3b650a.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.c3b650a.ba99c21.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.e7b11a8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.429e78b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.21f967e.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.21f967e.6826532.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.a84a67a.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.a84a67a.ae5e6c8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.fce9e30.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.b00b9e5.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.ef5f87d.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.ef5f87d.d704c85.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.bb14cfa.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.652540d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.24f8feb.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.24f8feb.fd59a75.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.e8823d3.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.e8823d3.c122e5b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.8dbc655.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.8dbc655.abe6fd5.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.67f3e01.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.67f3e01.017b126.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.e397c49.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.e397c49.c3b6ecb.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.3e95d49.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.3e95d49.05301f7.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.98b0880.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.98b0880.ac944cf.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.efc191b.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.efc191b.33ee71a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.566ef60.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.566ef60.44d73f6.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.173fdd7.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.173fdd7.084a88f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.40765a7.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.40765a7.f73244c.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.ab1d5c1.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.ab1d5c1.8ae58c3.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.dae34ca.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.dae34ca.d09394d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.6110adc.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.6110adc.dcbbd92.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.4985eee.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.4985eee.5f98b62.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.3a60acf.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.3a60acf.04f1be0.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.df3e0d4.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.df3e0d4.dba1358.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.db22873.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.db22873.ca4d3f8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.c71d3aa.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.c71d3aa.404fff8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.eefdbc2.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.eefdbc2.5b714e5.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.c4e6661.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.c4e6661.54a0018.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.54289ec.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.54289ec.bec166c.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.c819446.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.c819446.c8196c9.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.9cf4612.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.9cf4612.de67c65.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.ccc78ab.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.ccc78ab.5573316.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.414a654.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.414a654.5efcad2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.ef92ac7.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.ef92ac7.ad47dec.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.a74817e.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.a74817e.6d447ae.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.f82aa33.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.f82aa33.ea2b7dc.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.7d73721.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.7d73721.3963a74.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.12866ff.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.12866ff.9a0783d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.3aa0817.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.3aa0817.3c4658d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.bec2b9c.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.bec2b9c.c818035.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.9d6eb37.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.9d6eb37.3e35363.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.a4309b6.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.1fcfbde.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.37f2d6a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.d62ce9a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.947d502.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.b5ef371.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.e71d6a2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.5b94be1.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.264f853.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.26872ae.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.26872ae.48a6206.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.96f9733.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.df99382.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.0a3f1d1.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.c5f2b36.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.c5f2b36.c3698c6.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/manifest.json",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.12afd63.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.bfe0b62.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.1691b07.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.c7ca716.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.061face.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.537d8a7.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.346cb28.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.b0bbf41.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.008c2e5.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.log",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.36757e2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-19-23_465367.log",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-19-23_465367.fa0b9bb.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/pre-commit.log",
+      "type": "patch",
+      "stored_path": "staged/logs/pre-commit/pre-commit.f9f9cda.patch"
+    },
+    {
+      "original_path": "pre-commit",
+      "type": "patch",
+      "stored_path": "staged/pre-commit.15fdad0.patch"
+    },
+    {
+      "original_path": "publish_to_pypi.sh",
+      "type": "patch",
+      "stored_path": "staged/publish_to_pypi.21f967e.patch"
+    },
+    {
+      "original_path": "scripts/publish_to_pypi.py",
+      "type": "patch",
+      "stored_path": "staged/scripts/publish_to_pypi.bd5e273.patch"
+    },
+    {
+      "original_path": "scripts/publish_to_pypi.sh",
+      "type": "patch",
+      "stored_path": "staged/scripts/publish_to_pypi.ef5f87d.patch"
+    }
+  ],
+  "unstaged": [
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.24f8feb.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.e8823d3.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.b6fe805.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.b6fe805.9ab3ba7.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.67f3e01.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.6d2b2ad.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.6d2b2ad.e5f79d8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.d0cb81e.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/manifest.d0cb81e.824553e.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.bc472d7.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.bc472d7.8968895.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.060e312.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.060e312.2cbd35e.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.2221db5.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.2221db5.1fb094c.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.aae6056.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.aae6056.113fe2d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.77d00f9.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.77d00f9.996b4a5.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.4d1a218.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.4d1a218.1465fe1.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.e1bc4e0.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.e1bc4e0.eb1c3e3.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.07a60a1.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.07a60a1.c18b4c0.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.67ae7f3.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.67ae7f3.2f119d7.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.889a401.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.889a401.59b4c1a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.faa458b.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.faa458b.2f418a9.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.a4c3901.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.a4c3901.5f4a1b3.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.9f05858.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.9f05858.804d8fc.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.fda2c2d.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.fda2c2d.66220a6.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.843fa59.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.843fa59.4527e2c.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.7b0cdd9.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.7b0cdd9.88952c3.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.e7b11a8.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.e7b11a8.8f819b6.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.4c61235.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.4c61235.d844701.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.a3b25f9.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.a3b25f9.1dd785f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.5fe1756.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.5fe1756.40974cd.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.060361b.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.060361b.4a04527.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.67539de.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.67539de.d6fab21.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.671a824.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.671a824.eb25bab.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.454b388.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.454b388.5f6b31f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.c5a34ef.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.c5a34ef.79c0418.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.a87fdca.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.a87fdca.91ff7a4.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.17e6f32.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.17e6f32.496b149.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.5fa124c.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.5fa124c.bfdbbaf.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.6e33638.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.6e33638.6c6f38a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.ff119f3.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.ff119f3.ae25d47.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.25d3d0b.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.25d3d0b.f73395f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.6634e01.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.6634e01.50631ed.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.0ac5782.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.0ac5782.b15651a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.a2cc82c.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.a2cc82c.6d02168.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.3e95d49.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.12afd63.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.12afd63.e1ed4c0.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.bfe0b62.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.bfe0b62.3ba6b50.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.1691b07.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.1691b07.5cb0e6b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.c7ca716.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.c7ca716.46a542e.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.061face.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.061face.38f54da.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.537d8a7.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.537d8a7.b545f8d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.346cb28.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.346cb28.6e1c034.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.b0bbf41.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.b0bbf41.7fbb8ce.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.008c2e5.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.008c2e5.2680d73.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.8eedd70.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.8eedd70.dab5345.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.c3b650a.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.c3b650a.34b84b8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.df3e0d4.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.21f967e.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.21f967e.450e7ff.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.a84a67a.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.a84a67a.180649a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.ef5f87d.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.ef5f87d.f9192a1.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.24f8feb.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.gitmodules.4ac487a.24f8feb.f21cde2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.e8823d3.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/.pre-commit-config.fa07695.e8823d3.9c1cc0a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.8dbc655.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/README.8308958.8dbc655.34d5f8a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.67f3e01.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/br_pre_commit.dfcf0c4.67f3e01.7fcca5b.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.e397c49.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/install.0a7a052.e397c49.94d56fc.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.3e95d49.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.3e95d49.8b8a516.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.98b0880.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.98b0880.46949df.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.efc191b.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.efc191b.155ccb3.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.566ef60.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.566ef60.3fbf1a8.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.173fdd7.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.173fdd7.8737dfa.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.40765a7.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.40765a7.a370677.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.ab1d5c1.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.ab1d5c1.1149e5a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.dae34ca.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.dae34ca.508e016.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.6110adc.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.6110adc.9b02357.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.4985eee.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.4985eee.33ba36f.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.3a60acf.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.3a60acf.85c02fe.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.df3e0d4.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/pre-commit.15fdad0.df3e0d4.a9183c7.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.db22873.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/publish_to_pypi.07f1705.db22873.a654235.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.c71d3aa.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.de28e75.c71d3aa.149cd33.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.eefdbc2.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/scripts/publish_to_pypi.e4d1559.eefdbc2.68a3b4a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.c4e6661.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/README.6ba6586.c4e6661.ba9a4cd.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.54289ec.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.54289ec.e230ed4.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.c819446.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.c819446.7666237.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.9cf4612.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.9cf4612.b6828be.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.ccc78ab.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.ccc78ab.404e316.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.414a654.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.414a654.d6c6f4d.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.ef92ac7.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.ef92ac7.cc1189a.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.a74817e.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.a74817e.3355de2.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.f82aa33.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.f82aa33.b889c04.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.7d73721.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.7d73721.8027000.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.12866ff.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.12866ff.1ee85c1.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.3aa0817.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/publish_to_pypi.3133fe4.3aa0817.f4f9883.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.bec2b9c.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.5280208.bec2b9c.d0f66b0.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.9d6eb37.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.b421624.9d6eb37.eab0e75.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.26872ae.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-15-44_122608.26872ae.84fa8db.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.c5f2b36.patch",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/scripts/publish_to_pypi.c5f2b36.4bbc1e9.patch"
+    },
+    {
+      "original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-19-23_465367.log",
+      "type": "patch",
+      "stored_path": "unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-19-23_465367.eb0c85d.patch"
+    }
+  ],
+  "untracked": []
+}

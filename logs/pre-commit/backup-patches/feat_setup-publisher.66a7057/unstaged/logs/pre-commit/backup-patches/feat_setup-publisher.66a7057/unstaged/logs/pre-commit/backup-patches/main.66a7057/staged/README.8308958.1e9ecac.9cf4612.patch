@@ -1,0 +1,9 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.patch
+index 14cc238..82fd0bc 100644
+--- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.patch
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.patch
+@@ -7,4 +7,3 @@ index 7a4e961..d5b7d94 100644
+  +- [br-logging-and-profiling](https://github.com/your-org/br-logging-and-profiling) - Example project using this publisher
+  \ No newline at end of file
+ -
+-

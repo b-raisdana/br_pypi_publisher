@@ -1,0 +1,11 @@
+diff --git a/publish_to_pypi.sh b/publish_to_pypi.sh
+index 9e5efee..2717bb6 100755
+--- a/publish_to_pypi.sh
++++ b/publish_to_pypi.sh
+@@ -1,4 +1,4 @@
+ #!/bin/sh
+ set -eu
+ cd "$(dirname "$0")"
+-exec ./scripts/publish_to_pypi.sh "$@"
+\ No newline at end of file
++exec ./scripts/publish_to_pypi.sh "$@"

@@ -1,0 +1,107 @@
+diff --git a/scripts/publish_to_pypi.py b/scripts/publish_to_pypi.py
+index 9968af3..9795bf7 100755
+--- a/scripts/publish_to_pypi.py
++++ b/scripts/publish_to_pypi.py
+@@ -5,6 +5,7 @@ import subprocess
+ import sys
+ from datetime import date
+ from pathlib import Path
++
+ import tomllib
+
+
+@@ -62,19 +63,32 @@ def bump_version(version: str, bump_type: str) -> str:
+     elif bump_type in ("bug fix", "bugfix", "patch"):
+         patch += 1
+     else:
+-        print(f"ERROR: Invalid release type '{bump_type}'. Use: major, minor, or bug fix")
++        print(
++            f"ERROR: Invalid release type '{bump_type}'. Use: major, minor, or bug fix"
++        )
+         sys.exit(1)
+     return f"{major}.{minor}.{patch}"
+
+
+ def update_pyproject_version(pyproject: Path, new_version: str):
+     content = pyproject.read_text()
+-    content = re.sub(r'^version = "([^"]+)"', f'version = "{new_version}"', content, count=1, flags=re.MULTILINE)
++    content = re.sub(
++        r'^version = "([^"]+)"',
++        f'version = "{new_version}"',
++        content,
++        count=1,
++        flags=re.MULTILINE,
++    )
+     pyproject.write_text(content)
+
+
+ def get_changelog_body(repo_root: Path) -> str:
+-    result = subprocess.run(["git", "describe", "--tags", "--abbrev=0"], cwd=repo_root, capture_output=True, text=True)
++    result = subprocess.run(
++        ["git", "describe", "--tags", "--abbrev=0"],
++        cwd=repo_root,
++        capture_output=True,
++        text=True,
++    )
+     last_tag = result.stdout.strip() if result.returncode == 0 else ""
+     if last_tag:
+         cmd = ["git", "log", "--oneline", "--graph", "--decorate", f"{last_tag}..HEAD"]
+@@ -87,9 +101,7 @@ def get_changelog_body(repo_root: Path) -> str:
+ def update_changelog(changelog: Path, new_version: str, log_body: str):
+     content = changelog.read_text()
+     today = date.today().isoformat()
+-    new_section = (
+-        f"## [{new_version}] - {today}\n\n### Added\n\n- \n\n### Changed\n\n- \n\n### Fixed\n\n- \n\n{log_body}"
+-    )
++    new_section = f"## [{new_version}] - {today}\n\n### Added\n\n- \n\n### Changed\n\n- \n\n### Fixed\n\n- \n\n{log_body}"
+     pattern = rf"## \[{re.escape(new_version)}\] - .*?(?=\n## \[|$)"
+     content = re.sub(pattern, "", content, flags=re.DOTALL)
+     content = content.replace("# Changelog", f"# Changelog\n\n{new_section}", 1)
+@@ -113,7 +125,9 @@ def run_precommit(repo_root: Path):
+     if "files were modified by this hook" in result.stdout:
+         print("Staging pre-commit auto-fixes...")
+         run(["git", "add", "-A"], cwd=repo_root)
+-    if re.search(r"^(ruff|pytest|incremental ratchet).*Failed", result.stdout, re.MULTILINE):
++    if re.search(
++        r"^(ruff|pytest|incremental ratchet).*Failed", result.stdout, re.MULTILINE
++    ):
+         print("ERROR: Pre-commit checks failed. Fix issues and retry.")
+         sys.exit(1)
+
+@@ -139,7 +153,9 @@ def main():
+         text=True,
+     ).stdout.strip()
+     if current_branch != release_branch:
+-        print(f"ERROR: Must be on '{release_branch}' to release. Current branch: {current_branch}")
++        print(
++            f"ERROR: Must be on '{release_branch}' to release. Current branch: {current_branch}"
++        )
+         sys.exit(1)
+
+     env_vars = load_env(repo_root)
+@@ -172,7 +188,17 @@ def main():
+
+     print("Publishing to PyPI...")
+     run(
+-        [sys.executable, "-m", "twine", "upload", "dist/*", "-u", "__token__", "-p", pypi_api_key],
++        [
++            sys.executable,
++            "-m",
++            "twine",
++            "upload",
++            "dist/*",
++            "-u",
++            "__token__",
++            "-p",
++            pypi_api_key,
++        ],
+         cwd=repo_root,
+     )
+
+@@ -190,4 +216,4 @@ def main():
+
+
+ if __name__ == "__main__":
+-    main()
+\ No newline at end of file
++    main()

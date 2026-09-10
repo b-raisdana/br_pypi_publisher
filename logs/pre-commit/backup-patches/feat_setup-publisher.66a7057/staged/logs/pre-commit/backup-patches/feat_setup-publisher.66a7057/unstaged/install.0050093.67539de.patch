@@ -1,0 +1,18 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.patch
+new file mode 100644
+index 0000000..15ed5d9
+--- /dev/null
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/install.0050093.patch
+@@ -0,0 +1,12 @@
++diff --git a/install.sh b/install.sh
++index d67f79a..8933ec2 100755
++--- a/install.sh
+++++ b/install.sh
++@@ -103,4 +103,4 @@ echo "  1. Copy .env.example to .env and add your PYPI_API_KEY"
++ echo "  2. Ensure pyproject.toml has a version field"
++ echo "  3. Run ./publish (or ./publish minor/major/bug fix) from project root"
++ echo ""
++-echo "For more info, see: $tool_root/README.md"
++\ No newline at end of file
+++echo "For more info, see: $tool_root/README.md"
++

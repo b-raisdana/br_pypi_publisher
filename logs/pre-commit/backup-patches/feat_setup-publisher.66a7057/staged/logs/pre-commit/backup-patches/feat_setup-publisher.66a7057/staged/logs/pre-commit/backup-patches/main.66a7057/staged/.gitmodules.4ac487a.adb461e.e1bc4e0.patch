@@ -1,0 +1,23 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch
+new file mode 100644
+index 0000000..faac4ac
+--- /dev/null
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch
+@@ -0,0 +1,17 @@
++diff --git a/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch b/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch
++new file mode 100644
++index 0000000..e2ee076
++--- /dev/null
+++++ b/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch
++@@ -0,0 +1,10 @@
+++diff --git a/.gitmodules b/.gitmodules
+++new file mode 100644
+++index 0000000..e72900b
+++--- /dev/null
++++++ b/.gitmodules
+++@@ -0,0 +1,3 @@
++++[submodule "br_pre_commit"]
++++	path = br_pre_commit
++++	url = /home/brais/code/br_pre_commit
+++
++

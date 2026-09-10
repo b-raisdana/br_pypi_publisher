@@ -1,0 +1,9 @@
+diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.patch
+index ff52327..1912dff 100644
+--- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.patch
++++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/pre-commit.908cce6.patch
+@@ -5,4 +5,3 @@ index 0000000..11c3bdd
+ +++ b/logs/pre-commit/pre-commit.log
+ @@ -0,0 +1 @@
+ +{"timestamp": "20260910T054353Z", "branch": "main", "staged_files": [".gitmodules", "README.md", "br_pre_commit", "install.sh", "pre-commit", "publish_to_pypi.sh", "scripts/publish_to_pypi.py", "scripts/publish_to_pypi.sh"], "result": "fail", "jobs": {"branch-protection": 1, "backup": 0}, "advisory_lint_warnings": [], "report": "logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log", "snapshot_dir": "logs/pre-commit/backup-patches/main.66a7057"}
+-

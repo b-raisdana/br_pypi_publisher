@@ -1,0 +1,290 @@
+## trailing-whitespace
+status: fail
+exit: 1
+duration_seconds: 0.339
+command: pre-commit run trailing-whitespace --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+trim trailing whitespace.................................................[41mFailed[m
+[2m- hook id: trailing-whitespace[m
+[2m- exit code: 1[m
+[2m- files were modified by this hook[m
+
+Fixing logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log
+
+
+
+stderr:
+
+
+## end-of-file-fixer
+status: fail
+exit: 1
+duration_seconds: 0.260
+command: pre-commit run end-of-file-fixer --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+fix end of files.........................................................[41mFailed[m
+[2m- hook id: end-of-file-fixer[m
+[2m- exit code: 1[m
+[2m- files were modified by this hook[m
+
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch
+Fixing logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch
+Fixing publish_to_pypi.sh
+Fixing README.md
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch
+Fixing install.sh
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch
+Fixing scripts/publish_to_pypi.py
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch
+Fixing logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch
+Fixing scripts/publish_to_pypi.sh
+
+
+
+stderr:
+
+
+## mixed-line-ending
+status: pass
+exit: 0
+duration_seconds: 0.317
+command: pre-commit run mixed-line-ending --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+mixed line ending........................................................[42mPassed[m
+
+
+stderr:
+
+
+## ruff
+status: fail
+exit: 1
+duration_seconds: 0.327
+command: pre-commit run ruff --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+ruff (legacy alias)......................................................[41mFailed[m
+[2m- hook id: ruff[m
+[2m- exit code: 1[m
+[2m- files were modified by this hook[m
+
+[1m[91mPLW1510[0m[1m `subprocess.run` without explicit `check` argument[0m
+  [1m[94m--> [0mscripts/publish_to_pypi.py:14:14
+   [1m[94m|[0m
+[1m[94m12[0m [1m[94m|[0m def run(cmd, **kwargs):
+[1m[94m13[0m [1m[94m|[0m     print(f"+ {' '.join(cmd)}")
+[1m[94m14[0m [1m[94m|[0m     result = subprocess.run(cmd, **kwargs)
+   [1m[94m|[0m              [1m[91m^^^^^^^^^^^^^^[0m
+[1m[94m15[0m [1m[94m|[0m     if result.returncode != 0:
+[1m[94m16[0m [1m[94m|[0m         sys.exit(result.returncode)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Add explicit `check=False`[0m
+
+[1m[91mPLW1510[0m[1m `subprocess.run` without explicit `check` argument[0m
+  [1m[94m--> [0mscripts/publish_to_pypi.py:78:14
+   [1m[94m|[0m
+[1m[94m77[0m [1m[94m|[0m def get_changelog_body(repo_root: Path) -> str:
+[1m[94m78[0m [1m[94m|[0m     result = subprocess.run(["git", "describe", "--tags", "--abbrev=0"], cwd=repo_root, capture_output=True, text=True)
+   [1m[94m|[0m              [1m[91m^^^^^^^^^^^^^^[0m
+[1m[94m79[0m [1m[94m|[0m     last_tag = result.stdout.strip() if result.returncode == 0 else ""
+[1m[94m80[0m [1m[94m|[0m     if last_tag:
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Add explicit `check=False`[0m
+
+[1m[91mPLW1510[0m[1m `subprocess.run` without explicit `check` argument[0m
+  [1m[94m--> [0mscripts/publish_to_pypi.py:84:14
+   [1m[94m|[0m
+[1m[94m82[0m [1m[94m|[0m     else:
+[1m[94m83[0m [1m[94m|[0m         cmd = ["git", "log", "--oneline", "--graph", "--decorate"]
+[1m[94m84[0m [1m[94m|[0m     result = subprocess.run(cmd, cwd=repo_root, capture_output=True, text=True)
+   [1m[94m|[0m              [1m[91m^^^^^^^^^^^^^^[0m
+[1m[94m85[0m [1m[94m|[0m     return result.stdout
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Add explicit `check=False`[0m
+
+[1m[91mDTZ011[0m[1m `datetime.date.today()` used[0m
+  [1m[94m--> [0mscripts/publish_to_pypi.py:90:13
+   [1m[94m|[0m
+[1m[94m88[0m [1m[94m|[0m def update_changelog(changelog: Path, new_version: str, log_body: str):
+[1m[94m89[0m [1m[94m|[0m     content = changelog.read_text()
+[1m[94m90[0m [1m[94m|[0m     today = date.today().isoformat()
+   [1m[94m|[0m             [1m[91m^^^^^^^^^^^^[0m
+[1m[94m91[0m [1m[94m|[0m     new_section = (
+[1m[94m92[0m [1m[94m|[0m         f"## [{new_version}] - {today}\n\n### Added\n\n- \n\n### Changed\n\n- \n\n### Fixed\n\n- \n\n{log_body}"
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Use `datetime.datetime.now(tz=...).date()` instead[0m
+
+[1m[91mPLW1510[0m[1m `subprocess.run` without explicit `check` argument[0m
+   [1m[94m--> [0mscripts/publish_to_pypi.py:104:14
+    [1m[94m|[0m
+[1m[94m102[0m [1m[94m|[0m     env["SKIP_NO_COMMIT_TO_MAIN"] = "1"
+[1m[94m103[0m [1m[94m|[0m     print("Running pre-commit checks...")
+[1m[94m104[0m [1m[94m|[0m     result = subprocess.run(
+    [1m[94m|[0m              [1m[91m^^^^^^^^^^^^^^[0m
+[1m[94m105[0m [1m[94m|[0m         ["pre-commit", "run", "--all-files"],
+[1m[94m106[0m [1m[94m|[0m         cwd=repo_root,
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Add explicit `check=False`[0m
+
+[1m[91mF841[0m[1m Local variable `twine_command` is assigned to but never used[0m
+   [1m[94m--> [0mscripts/publish_to_pypi.py:134:5
+    [1m[94m|[0m
+[1m[94m132[0m [1m[94m|[0m     skip_precommit = config.get("skip_precommit", False)
+[1m[94m133[0m [1m[94m|[0m     build_command = config.get("build_command", "python -m build")
+[1m[94m134[0m [1m[94m|[0m     twine_command = config.get("twine_command", "twine upload dist/*")
+    [1m[94m|[0m     [1m[91m^^^^^^^^^^^^^[0m
+[1m[94m135[0m [1m[94m|[0m
+[1m[94m136[0m [1m[94m|[0m     current_branch = subprocess.run(
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Remove assignment to unused variable `twine_command`[0m
+
+[1m[91mPLW1510[0m[1m `subprocess.run` without explicit `check` argument[0m
+   [1m[94m--> [0mscripts/publish_to_pypi.py:136:22
+    [1m[94m|[0m
+[1m[94m134[0m [1m[94m|[0m     twine_command = config.get("twine_command", "twine upload dist/*")
+[1m[94m135[0m [1m[94m|[0m
+[1m[94m136[0m [1m[94m|[0m     current_branch = subprocess.run(
+    [1m[94m|[0m                      [1m[91m^^^^^^^^^^^^^^[0m
+[1m[94m137[0m [1m[94m|[0m         ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+[1m[94m138[0m [1m[94m|[0m         cwd=repo_root,
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Add explicit `check=False`[0m
+
+Found 8 errors (1 fixed, 7 remaining).
+No fixes available (1 hidden fix can be enabled with the `--unsafe-fixes` option).
+
+
+
+stderr:
+
+
+## ruff-format
+status: fail
+exit: 1
+duration_seconds: 0.238
+command: pre-commit run ruff-format --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+ruff format..............................................................[41mFailed[m
+[2m- hook id: ruff-format[m
+[2m- files were modified by this hook[m
+
+1 file reformatted
+
+
+
+stderr:
+
+
+## check-yaml
+status: pass
+exit: 0
+duration_seconds: 0.373
+command: pre-commit run check-yaml --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+check yaml...............................................................[42mPassed[m
+
+
+stderr:
+
+
+## check-toml
+status: pass
+exit: 0
+duration_seconds: 0.246
+command: pre-commit run check-toml --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+check toml...........................................(no files to check)[46;30mSkipped[m
+
+
+stderr:
+
+
+## check-added-large-files
+status: pass
+exit: 0
+duration_seconds: 0.372
+command: pre-commit run check-added-large-files --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+check for added large files..............................................[42mPassed[m
+
+
+stderr:
+
+
+## check-merge-conflict
+status: pass
+exit: 0
+duration_seconds: 0.336
+command: pre-commit run check-merge-conflict --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+check for merge conflicts................................................[42mPassed[m
+
+
+stderr:
+
+
+## check-case-conflict
+status: pass
+exit: 0
+duration_seconds: 0.369
+command: pre-commit run check-case-conflict --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+check for case conflicts.................................................[42mPassed[m
+
+
+stderr:
+
+
+## debug-statements
+status: pass
+exit: 0
+duration_seconds: 0.346
+command: pre-commit run debug-statements --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+debug statements (python)................................................[42mPassed[m
+
+
+stderr:
+
+
+## pytest-fast
+status: pass
+exit: 0
+duration_seconds: 0.199
+command: pre-commit run pytest-fast --hook-stage pre-commit --color always --files .gitmodules .pre-commit-config.yaml README.md br_pre_commit install.sh logs/pre-commit/backup-patches/main.66a7057/manifest.json logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log logs/pre-commit/pre-commit.log pre-commit publish_to_pypi.sh scripts/publish_to_pypi.py scripts/publish_to_pypi.sh
+
+stdout:
+pytest unit gate.....................................(no files to check)[46;30mSkipped[m
+
+
+stderr:
+
+
+## backup
+status: pass
+exit: 0
+duration_seconds: 0.249
+command: /home/brais/miniconda3/envs/tf/bin/python /home/brais/code/br_pypi_publisher/br_pre_commit/src/br_pre_commit/backup.py --repo /home/brais/code/br_pypi_publisher --print-manifest-json
+
+stdout:
+{"branch": "feat/setup-publisher", "commit_hash": "66a7057933b09089bae71a0feed902bc4ac0dccd", "timestamp": "20260910T091546", "snapshot_dir": "logs/pre-commit/backup-patches/feat_setup-publisher.66a7057", "staged": [{"original_path": ".gitmodules", "type": "patch", "stored_path": "staged/.gitmodules.4ac487a.patch"}, {"original_path": ".pre-commit-config.yaml", "type": "patch", "stored_path": "staged/.pre-commit-config.fa07695.patch"}, {"original_path": "README.md", "type": "patch", "stored_path": "staged/README.8308958.patch"}, {"original_path": "br_pre_commit", "type": "patch", "stored_path": "staged/br_pre_commit.dfcf0c4.patch"}, {"original_path": "install.sh", "type": "patch", "stored_path": "staged/install.0a7a052.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/manifest.json", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/manifest.de36068.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.9dac503.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.175bc4b.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.b3630ea.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.192f129.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch", "type": "patch", "stored_path": "staged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.c3789e7.patch"}, {"original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log", "type": "patch", "stored_path": "staged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.79e8826.patch"}, {"original_path": "logs/pre-commit/pre-commit.log", "type": "patch", "stored_path": "staged/logs/pre-commit/pre-commit.908cce6.patch"}, {"original_path": "pre-commit", "type": "patch", "stored_path": "staged/pre-commit.15fdad0.patch"}, {"original_path": "publish_to_pypi.sh", "type": "patch", "stored_path": "staged/publish_to_pypi.07f1705.patch"}, {"original_path": "scripts/publish_to_pypi.py", "type": "patch", "stored_path": "staged/scripts/publish_to_pypi.de28e75.patch"}, {"original_path": "scripts/publish_to_pypi.sh", "type": "patch", "stored_path": "staged/scripts/publish_to_pypi.e4d1559.patch"}], "unstaged": [{"original_path": "README.md", "type": "patch", "stored_path": "unstaged/README.6ba6586.patch"}, {"original_path": "install.sh", "type": "patch", "stored_path": "unstaged/install.0050093.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.a6e00e7.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.1e9ecac.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.5c39a39.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.990aa12.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.2e6e745.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.de28e75.cd6e107.patch"}, {"original_path": "logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.patch", "type": "patch", "stored_path": "unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/scripts/publish_to_pypi.e4d1559.0c1e26d.patch"}, {"original_path": "logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log", "type": "patch", "stored_path": "unstaged/logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.67567a9.patch"}, {"original_path": "publish_to_pypi.sh", "type": "patch", "stored_path": "unstaged/publish_to_pypi.3133fe4.patch"}, {"original_path": "scripts/publish_to_pypi.py", "type": "patch", "stored_path": "unstaged/scripts/publish_to_pypi.b421624.patch"}, {"original_path": "scripts/publish_to_pypi.sh", "type": "patch", "stored_path": "unstaged/scripts/publish_to_pypi.5280208.patch"}], "untracked": []}
+
+
+stderr:
+Using selector: EpollSelector
+Taking snapshot /home/brais/code/br_pypi_publisher...
+Snapshot saved to /home/brais/code/br_pypi_publisher/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057 | 20 staged, 14 unstaged, 0 untracked | 60.7 KB
+Backup script exited with code 0

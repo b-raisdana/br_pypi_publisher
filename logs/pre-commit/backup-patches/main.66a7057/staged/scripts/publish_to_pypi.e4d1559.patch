@@ -1,0 +1,19 @@
+diff --git a/scripts/publish_to_pypi.sh b/scripts/publish_to_pypi.sh
+new file mode 100755
+index 0000000..d823b0d
+--- /dev/null
++++ b/scripts/publish_to_pypi.sh
+@@ -0,0 +1,12 @@
++#!/bin/sh
++set -eu
++# This script is called from the project root via the convenience `publish` script
++# It finds the br_pypi_publisher submodule and runs the Python script
++
++# Get the directory where this script is located (br_pypi_publisher/scripts/)
++script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
++# Go up to br_pypi_publisher/ then up to project root
++publisher_root=$(dirname "$script_dir")
++repo_root=$(dirname "$publisher_root")
++
++exec python "$script_dir/publish_to_pypi.py" "$@"
+\ No newline at end of file
