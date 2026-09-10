@@ -1,0 +1,33 @@
+# IDE
+.idea/
+.vscode/
+
+# Python virtual envs
+/venv/
+/.venv/
+/.testvenv/
+
+# Python bytecode / cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ipynb_checkpoints/
+*.egg-info/
+.eggs/
+*.whl
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Secrets / local config
+.env
+.env.*
+
+# Misc
+docker_volume/
+br_pypi_publisher/

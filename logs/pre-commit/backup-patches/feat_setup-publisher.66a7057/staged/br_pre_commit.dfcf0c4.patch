@@ -1,8 +1,0 @@
-diff --git a/br_pre_commit b/br_pre_commit
-new file mode 160000
-index 0000000..6feee21
---- /dev/null
-+++ b/br_pre_commit
-@@ -0,0 +1 @@
-+Subproject commit 6feee21db5c3d828fa44c688487799a5f4e5fa05
-

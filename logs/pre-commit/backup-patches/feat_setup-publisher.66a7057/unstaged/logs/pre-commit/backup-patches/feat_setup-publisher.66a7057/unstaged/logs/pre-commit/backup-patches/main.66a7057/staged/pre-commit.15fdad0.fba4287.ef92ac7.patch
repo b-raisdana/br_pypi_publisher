@@ -1,9 +1,0 @@
-diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.patch
-index 798ee2e..4e0b828 100644
---- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.patch
-+++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/unstaged/logs/pre-commit/backup-patches/main.66a7057/staged/pre-commit.15fdad0.fba4287.patch
-@@ -7,4 +7,3 @@ index 783340e..744a6ff 100644
-  +#!/bin/sh
-  +exec "$(git rev-parse --git-dir)/hooks/pre-commit"
- -
--

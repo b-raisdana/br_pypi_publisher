@@ -1,9 +1,0 @@
-diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch
-index faac4ac..111328b 100644
---- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch
-+++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/.gitmodules.4ac487a.adb461e.patch
-@@ -14,4 +14,3 @@ index 0000000..e2ee076
- ++	path = br_pre_commit
- ++	url = /home/brais/code/br_pre_commit
- +
--

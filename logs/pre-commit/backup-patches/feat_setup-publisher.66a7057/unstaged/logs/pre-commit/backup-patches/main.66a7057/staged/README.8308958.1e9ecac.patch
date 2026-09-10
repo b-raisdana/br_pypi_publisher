@@ -1,9 +1,0 @@
-diff --git a/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch b/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch
-index 7a4e961..d5b7d94 100644
---- a/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch
-+++ b/logs/pre-commit/backup-patches/main.66a7057/staged/README.8308958.patch
-@@ -211,4 +211,3 @@ index f1b0cb7..ece4339 100644
- +- [br_pre_commit](https://github.com/your-org/br_pre_commit) - Shared pre-commit infrastructure
- +- [br-logging-and-profiling](https://github.com/your-org/br-logging-and-profiling) - Example project using this publisher
- \ No newline at end of file
--

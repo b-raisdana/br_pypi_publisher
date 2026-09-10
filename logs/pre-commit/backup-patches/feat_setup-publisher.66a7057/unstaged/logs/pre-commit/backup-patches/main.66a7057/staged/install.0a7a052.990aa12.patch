@@ -1,9 +1,0 @@
-diff --git a/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch b/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch
-index 6826ff8..276804e 100644
---- a/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch
-+++ b/logs/pre-commit/backup-patches/main.66a7057/staged/install.0a7a052.patch
-@@ -111,4 +111,3 @@ index 0000000..d67f79a
- +echo ""
- +echo "For more info, see: $tool_root/README.md"
- \ No newline at end of file
--

@@ -1,7 +1,0 @@
-diff --git a/logs/pre-commit/pre-commit.log b/logs/pre-commit/pre-commit.log
-new file mode 100644
-index 0000000..11c3bdd
---- /dev/null
-+++ b/logs/pre-commit/pre-commit.log
-@@ -0,0 +1 @@
-+{"timestamp": "20260910T054353Z", "branch": "main", "staged_files": [".gitmodules", "README.md", "br_pre_commit", "install.sh", "pre-commit", "publish_to_pypi.sh", "scripts/publish_to_pypi.py", "scripts/publish_to_pypi.sh"], "result": "fail", "jobs": {"branch-protection": 1, "backup": 0}, "advisory_lint_warnings": [], "report": "logs/pre-commit/pre-commit-runs/2026-09-10_09-13-53_165578.log", "snapshot_dir": "logs/pre-commit/backup-patches/main.66a7057"}

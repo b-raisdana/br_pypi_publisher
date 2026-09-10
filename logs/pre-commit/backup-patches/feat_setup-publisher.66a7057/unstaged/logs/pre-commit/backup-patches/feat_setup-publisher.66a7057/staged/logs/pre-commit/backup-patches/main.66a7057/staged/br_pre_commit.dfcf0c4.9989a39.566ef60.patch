@@ -1,9 +1,0 @@
-diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.patch
-index 44ab0b8..848c787 100644
---- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.patch
-+++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/br_pre_commit.dfcf0c4.9989a39.patch
-@@ -12,4 +12,3 @@ index 0000000..8852dac
- +@@ -0,0 +1 @@
- ++Subproject commit 6feee21db5c3d828fa44c688487799a5f4e5fa05
- +
--

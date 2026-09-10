@@ -1,9 +1,0 @@
-diff --git a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.patch b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.patch
-index b01da09..600259d 100644
---- a/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.patch
-+++ b/logs/pre-commit/backup-patches/feat_setup-publisher.66a7057/staged/logs/pre-commit/backup-patches/main.66a7057/staged/publish_to_pypi.07f1705.a984da2.patch
-@@ -16,4 +16,3 @@ index 0000000..7e93cd8
- ++exec ./scripts/publish_to_pypi.sh "$@"
- +\ No newline at end of file
- +
--
