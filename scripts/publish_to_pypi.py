@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import glob
 import os
 import re
 import subprocess
@@ -191,13 +192,14 @@ def main():
     run(build_command.split(), cwd=repo_root)
 
     print("Publishing to PyPI...")
+    dist_files = sorted(glob.glob(str(repo_root / "dist" / f"*{new_version}*")))
     run(
         [
-            sys.executable,
+            "python",
             "-m",
             "twine",
             "upload",
-            "dist/*",
+            *dist_files,
             "-u",
             "__token__",
             "-p",
