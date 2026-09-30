@@ -33,7 +33,8 @@ bash br_pypi_publisher/install.sh
 
 Copy the `scripts/` directory to your project and ensure you have:
 - Python 3.8+
-- `build`, `twine`, `pre-commit` installed
+- **An activated environment** (venv or conda) — the publisher stops if none is active
+- `build`, `twine`, `pre-commit` installed in that environment (`pip install -r br_pypi_publisher/requirements.txt`)
 - A `.env` file with `PYPI_API_KEY`
 
 ## Installation
@@ -144,10 +145,8 @@ br_pypi_publisher/
 ## Requirements
 
 - Git
-- Python 3.8+
-- `build` package (`pip install build`)
-- `twine` package (`pip install twine`)
-- `pre-commit` package (`pip install pre-commit`)
+- Python 3.8+ **inside an activated venv or conda environment**
+- `build`, `twine`, `pre-commit` (`pip install -r br_pypi_publisher/requirements.txt`)
 - PyPI API token with publish permissions
 
 ## Example Workflow

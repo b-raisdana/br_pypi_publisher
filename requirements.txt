@@ -1,0 +1,16 @@
+# Runtime requirements for br_pypi_publisher.
+#
+# The publisher itself only uses the standard library. These packages are the
+# external tools it shells out to, so they must be importable/executable in the
+# environment that runs publish_to_pypi.py:
+#
+#   pre-commit -> `pre-commit run --all-files` (quality gate)
+#   build      -> `python -m build`          (sdist + wheel)
+#   twine      -> `python -m twine upload`   (PyPI upload)
+#
+# Bounds are intentionally loose (minimum-only) so this stays usable as a
+# submodule in any host repo.
+
+pre-commit>=3.0
+build>=1.0
+twine>=4.0
